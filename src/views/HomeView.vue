@@ -1,18 +1,38 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <BasicLayout>
+    <h1>Últimos productos</h1>
+    <div class="ui grid">
+      <div
+        class="sixten wide mobile eight wide tablet four wide computer column"
+        v-for="product in products"
+        :key="product.attributes.id"
+      >
+        <Product :product="product" />
+      </div>
+    </div>
+  </BasicLayout>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import { ref, onMounted } from "vue";
+import BasicLayout from "../layouts/BasicLayout";
+import { getProducts } from "../api/product";
+import Product from "../components/Product";
 export default {
-  name: 'HomeView',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    BasicLayout,
+    Product,
+  },
+  setup() {
+    let products = ref(null);
+    onMounted(async () => {
+      const response = await getProducts(20);
+      products.value = response.data;
+    });
+    return {
+      products,
+    };
+  },
+};
 </script>
