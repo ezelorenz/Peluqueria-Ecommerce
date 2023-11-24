@@ -1,8 +1,8 @@
-# Veterinaria - Tienda Online
+# Peluqueria - Tienda Online
 
 ## Descripción del Proyecto
 
-Bienvenido a Veterinar, tu tienda online personalizada. Este proyecto es una pequeña tienda en línea con características tanto para usuarios normales como para administradores.
+Bienvenido a Pelu, tu tienda online personalizada. Este proyecto es una pequeña tienda en línea con características tanto para usuarios normales como para administradores.
 
 ### Panel de Administrador
 
