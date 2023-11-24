@@ -1,24 +1,3 @@
-# ecommerce
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
 # Veterinaria - Tienda Online
 
 ## Descripción del Proyecto
@@ -70,4 +49,26 @@ Los usuarios normales, al acceder a la página web, pueden disfrutar de las sigu
 3. **Revisar Carrito:** Ver el contenido del carrito, ajustar cantidades o eliminar productos.
 4. **Generar Pedido:** Confirmar la compra para generar un nuevo pedido.
 5. **Historial de Pedidos:** Los usuarios pueden revisar su historial de pedidos anteriores.
+
+# ecommerce
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
 
