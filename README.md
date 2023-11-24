@@ -71,8 +71,3 @@ Los usuarios normales, al acceder a la página web, pueden disfrutar de las sigu
 4. **Generar Pedido:** Confirmar la compra para generar un nuevo pedido.
 5. **Historial de Pedidos:** Los usuarios pueden revisar su historial de pedidos anteriores.
 
-## Configuración del Proyecto
-
-### Instalación de Dependencias
-```bash
-yarn install
